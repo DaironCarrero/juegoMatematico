@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+	<link rel="stylesheet" type="text/css" href="juego.css">
+	<link rel="icon" href="imagen.ico">
+</head>
+<body>
+
+
+    <div id="pantallaInicial">
+		<p>!Hola, Bienvenido al juego de preguntas de matemáticas - Nivel 1</p>
+		<button class="btn" onclick="comenzarJuego()">Comenzar a jugar</button>
+	</div>
+
+
+	<div id="container">
+
+	  <div>
+		  <h1>Math Quiz</h1>
+	  </div>
+		<p id="question"></p>
+		<div id="answers">
+		   </div>
+		      <button id="submit-button" onclick="checkAnswer()">Enviar</button>
+		      <button id="nextQuestions" onclick="nextQuestion()">suiguiente</button>
+		   <div>
+			<p id="result"></p>
+			<p id="correctas"></p>
+	
+		</div>
+
+	</div>
+	
+	<div id="endScreen"></div>
+	<div id="end">
+		<a href="game.html">
+			<button  class="btn">Siguiente Nivel</button>
+
+		</a>
+    </div>	
+	<footer>Creado por: D.J.F.</footer>
+	
+	
+	<script src="scrip.js"></script>
+</body>
+</html>
+ //como hacer que las preguntas salgan aleatoriamente?

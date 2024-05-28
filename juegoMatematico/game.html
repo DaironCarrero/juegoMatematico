@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Game</title>
+  <link rel="stylesheet" href="game.css">
+  <link rel="icon" href="imagen.ico">
+</head>
+<body>
+  <h1>Math Game</h1>
+
+
+
+  <div id="pantallaInicial">
+		<p> Bienvenido al Nivel 2 del juego de preguntas de matemáticas</p>
+		<button class="btn" onclick="comenzarJuego()">Comenzar a jugar</button>
+	</div>
+
+  <div id="game-container">  
+ 
+
+	  <div>
+		  <h1>Math Quiz</h1>
+	  </div>
+		<p id="question"></p>
+		<div id="answers">
+		   </div>
+		      <button id="submit-button" onclick="checkAnswer()">Enviar</button>
+		      <button id="nextQuestions" onclick="nextQuestion()">suiguiente</button>
+		   <div>
+			<p id="result"></p>
+			<p id="correctas"></p>
+	
+		</div>
+
+	</div>
+	
+	<div id="endScreen"></div>
+	<div id="end">
+		<a href="juego.html">
+			<button  id="Inicio" class="btn">volver al Inicio</button>
+		</a>
+	</div>
+	
+	<footer>Creado por: D.J.F.</footer>
+	
+ 
+
+  <script src="game.js"></script>
+</body>
+</html>
