@@ -26,7 +26,7 @@ body {
 .btn{
 	border: none;
 	background: linear-gradient(to right,#7928d6,#2dd4aa );
-	color: #fff;
+	color: #000000;
 	padding: 10px 20px;
 	border-radius: 50px;
 	cursor: pointer;
@@ -68,7 +68,7 @@ h1{
 p{
 	font-size: 25px;
 	padding: 70px 60px;
-	color: #ccc;
+	color: #000000;
 }
 #question{
 	color: #000;

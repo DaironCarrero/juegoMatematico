@@ -173,7 +173,7 @@ function endJuego(){
 	let endScreen = document.getElementById("endScreen");
 	endScreen.style.display = "block";
   document.getElementById("game-container").style.display ="none";
-	document.getElementById("endScreen").innerHTML = "¡Felicidades! Has terminado el juego. Has obtenido " + respuestasCorrectas;
+	document.getElementById("endScreen").innerHTML = "¡Felicidades! Has terminado el juego. Has obtenido " + respuestasCorrectas*10;
 	document.getElementById("end").style.display ="block";
 	
     
